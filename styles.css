@@ -1,0 +1,68 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Container layout */
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* Navigation bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1c1e1e;
+    color: #fff;
+    padding: 1rem;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.navbar-item a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Sidebar */
+.sidebar {
+    background-color: #f4f4f4;
+    width: 200px;
+    padding: 1rem;
+}
+
+.sidebar-menu {
+    list-style: none;
+}
+
+.sidebar-item {
+    margin-bottom: 1rem;
+}
+
+.sidebar-item a {
+    color: #333;
+    text-decoration: none;
+}
+
+/* Main content area */
+.main-content {
+    flex: 1;
+    padding: 1rem;
+}
+
+.main-content h1 {
+    margin-bottom: 1rem;
+}
